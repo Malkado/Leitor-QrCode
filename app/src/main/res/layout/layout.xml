@@ -20,20 +20,13 @@
         >
 
     </LinearLayout>
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Scannear"
-        android:onClick="openCamera"
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_iconfinder_tablet_rad_2834764"
+        android:background="@drawable/background"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:id="@+id/btn_scanner"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Scannear QRcode"
-        android:textSize="25dp"
-        android:layout_centerHorizontal="true"
-        android:layout_above="@id/btn_scanner"/>
+        android:onClick="openCamera"/>
 
 </RelativeLayout>
